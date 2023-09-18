@@ -4,7 +4,7 @@ from torch.nn import init
 import torch.nn.functional as F
 import functools
 from torch.optim import lr_scheduler
-from models.normalize import RAIN
+from RainNet.models.normalize import RAIN
 from torch.nn.utils import spectral_norm
 
 class Identity(nn.Module):
