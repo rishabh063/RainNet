@@ -2,7 +2,7 @@ import os.path
 import torch
 import random
 import torchvision.transforms.functional as tf
-from data.base_dataset import BaseDataset, get_transform
+from RainNet.data.base_dataset import BaseDataset, get_transform
 from PIL import Image
 import numpy as np
 import torchvision.transforms as transforms
